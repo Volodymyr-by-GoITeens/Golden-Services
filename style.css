@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+:root {
+    --brand-color: #FED136;
+    --title-color: #222222;
+    --text-color: #777777;
+    --form-title-color: #FFFFFF;
+    --form-background-color: #222222;
+    --form-placeholder-color: #BBBBBB;
+}
