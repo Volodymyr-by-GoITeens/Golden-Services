@@ -14,10 +14,9 @@
 }
 
 body {
-    font-family: var(--text-font);
+    font-family: var(--title-font);
     font-weight: 700;
     font-size: 14px;
-    line-height: 100%;
 }
 .container {
     width: 942px;
@@ -27,7 +26,7 @@ body {
 
 /*header*/
 .header {
-    padding-top: 44px;
+    padding: 44px 0;
 }
 .header-container {
     display: flex;
@@ -51,7 +50,6 @@ body {
     gap: 10px;
 }
 .header-link {
-    font-family: var(--title-font);
     color: var(--brand-color);
     font-weight: 400;
     line-height: 41px;
@@ -61,14 +59,13 @@ body {
 
 /*services*/
 .services {
-    padding: 109px 0 119px;
+    padding: 65px 0 119px;
 }
 .services-container {
     display: flex;
     flex-direction: column;
 }
 .services-title {
-    font-family: var(--title-font);
     color: var(--title-color);
     font-size: 40px;
     line-height: 75px;
@@ -92,13 +89,13 @@ body {
     border-radius: 100%;
 }
 .services-headline {
-    font-family: var(--title-font);
     color: var(--title-color);
     font-size: 18px;
     line-height: 75px;
     letter-spacing: -0.45px;
 }
 .services-desc {
+    font-family: var(--text-font);
     color: var(--text-color);
     font-weight: 400;
     letter-spacing: -0.35px;
@@ -114,7 +111,6 @@ body {
     flex-direction: column;
 }
 .contact-title {
-    font-family: var(--title-font);
     color: var(--second-title-color);
     font-weight: 700;
     font-size: 40px;
@@ -140,34 +136,32 @@ body {
 }
 .contact-form-input {
     border: 1px outset var(--form-border-color);
-    font-family: var(--title-font);
     color: var(--placeholder-color);
-    width: 405px;
+    font-family: var(--title-font);
+    width: 417px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 4px;
-    padding: 12px 20px 21px;
+    padding: 13px 19px 22px;
     letter-spacing: -0.35px;
-    box-sizing: content-box;
     text-transform: uppercase;
 }
 .contact-form-textarea {
     border: 1px outset var(--form-border-color);
-    font-family: var(--title-font);
     color: var(--placeholder-color);
-    width: 404px;
+    font-family: var(--title-font);
+    width: 414px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 4px;
     padding: 14px 22px;
     letter-spacing: -0.35px;
     resize: none;
-    box-sizing: content-box;
     text-transform: uppercase;
 }
 .contact-form-button {
-    font-family: var(--title-font);
     color: var(--button-color);
+    font-family: var(--title-font);
     background-color: var(--brand-color);
     border-radius: 4px;
     font-weight: 700;
