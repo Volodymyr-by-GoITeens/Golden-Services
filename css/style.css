@@ -85,7 +85,7 @@ body {
     fill: var(--brand-color);
     width: 38px;
     height: 38px;
-    padding: 15.5px;
+    padding: 13px;
     border-radius: 100%;
 }
 .services-headline {
