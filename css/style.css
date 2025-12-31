@@ -138,7 +138,7 @@ body {
     border: 1px outset var(--form-border-color);
     color: var(--placeholder-color);
     font-family: var(--title-font);
-    width: 417px;
+    width: 457px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 4px;
@@ -150,7 +150,7 @@ body {
     border: 1px outset var(--form-border-color);
     color: var(--placeholder-color);
     font-family: var(--title-font);
-    width: 414px;
+    width: 458px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 4px;
