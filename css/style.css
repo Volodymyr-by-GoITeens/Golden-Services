@@ -136,7 +136,6 @@ body {
 }
 .contact-form-input {
     border: 1px outset var(--form-border-color);
-    color: var(--placeholder-color);
     font-family: var(--title-font);
     width: 457px;
     font-size: 14px;
@@ -146,9 +145,11 @@ body {
     letter-spacing: -0.35px;
     text-transform: uppercase;
 }
+.contact-form-input::placeholder {
+    color: var(--placeholder-color);
+}
 .contact-form-textarea {
     border: 1px outset var(--form-border-color);
-    color: var(--placeholder-color);
     font-family: var(--title-font);
     width: 458px;
     font-size: 14px;
@@ -158,6 +159,9 @@ body {
     letter-spacing: -0.35px;
     resize: none;
     text-transform: uppercase;
+}
+.contact-form-textarea::placeholder {
+    color: var(--placeholder-color);
 }
 .contact-form-button {
     color: var(--button-color);
